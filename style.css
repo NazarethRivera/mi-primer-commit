@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 12% 0 0;
+    background-color: #8eabfb;
+}
+
+.reproductor {
+    text-align: center;
+}
+
+.Reproductor img {
+    max-width: 40%;
+    height: auto;
+}
+
+#songImagen {
+    max-width: 100%;
+    height: auto;
+}
+
+#playPauseBtn.pause {
+    content: url("REPRODUCTOR/pausa.png");
+}
+
+#songDetails {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#controls img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressContainer {
+    width: 300px;
+    height: 10px;
+    background-color: #000000;
+    margin: 20px auto;
+    position: relative;
+}
+
+#progressBar {
+    height: 100%;
+    background-color: #7e0808;
+    width: 0;
+    position: absolute;
+}
+
+#songList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#songList li {
+    margin-bottom: 5px;
+}
+
+#songList li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#songList li a:hover {
+    color: #666;
+}

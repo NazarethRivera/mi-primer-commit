@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Musical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Reproductor">
+        <div id="songDetails"> 
+            <img id="songImagen" src="" alt="Portada del álbum">
+            <p id="songAlbum">Álbum:</p>
+            <p id="songArtist">Artista:</p>
+            <p id="songDuration">Duración:</p>
+        </div>
+        <div id="controls">
+            <img id="playPauseBtn" class="control-btn" src="REPRODUCTOR/play.png" alt="Reproducir">
+            <img id="shuffleBtn" class="control-btn" src="REPRODUCTOR/aleatorio.png" alt="Aleatorio">
+            <img id="prevBtn" class="control-btn" src="REPRODUCTOR/Siguiente - copia.png" alt="Anterior">
+            <img id="nextBtn" class="control-btn" src="REPRODUCTOR/Siguiente.png" alt="Siguiente">
+        </div>
+        <div id="progressContainer">
+            <div id="progressBar"></div>
+        </div>
+        <div style="text-align: left;">
+            <ul id="songList">
+        <ul>
+            <li><a href="#" onclick="play(0)">AIAIAI-KIZUNA IA</a></li>
+            <li><a href="#" onclick="play(1)">ANTICHLOROBENZA-VOCALOID</a></li>
+            <li><a href="#" onclick="play(2)">BLACK BOARD-VOCALOID</a></li>
+            <li><a href="#" onclick="play(3)">BURENAI AI DE-VOCALOID</a></li>
+            <li><a href="#" onclick="play(4)">EASY DANCE-VOCALOID</a></li>
+            <li><a href="#" onclick="play(5)">FREELY TOMORROW</a></li>
+            <li><a href="#" onclick="play(6)">HATSUNE MIKU NO SHOUSHITSU-VOCALOID</a></li>
+            <li><a href="#" onclick="play(7)">HATSUNE-VOCALOID</a></li>
+            <li><a href="#" onclick="play(8)">HELLO/HOW ARE YOU?-VOCALOID</a></li>
+            <li><a href="#" onclick="play(9)">ROLLIN'Girl-VOCALOID</a></li>
+            <li><a href="#" onclick="play(10)">SOLAR SYSTEM DISCO-VOCALOID</a></li>
+            <li><a href="#" onclick="play(11)">TURKISH MARCH-VOCALOID</a></li>
+            <li><a href="#" onclick="play(12)">TWO-FACED LOVERS-VOCALOID</a></li>
+            <li><a href="#" onclick="play(13)">UNHAPPY REFRAIN-VOCALOID</a></li>
+            <li><a href="#" onclick="play(14)">VIVA HAPPY-VOCALOID</a></li>
+        </ul>
+    </ul>
+    </div>
+    <script type="text/javascript" src="replay.js"></script>
+</body>
+</html>
